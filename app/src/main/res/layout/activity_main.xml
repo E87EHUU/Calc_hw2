@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bg_norm_size"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:background="#22999999"
+        android:backgroundTint="#22999999"
+        android:layout_margin="5dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_7" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_9" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#99555555"
+            android:text="@string/key_divide" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_6" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#99555555"
+            android:text="@string/key_multiply" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#99555555"
+            android:text="@string/key_minus" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:backgroundTint="#22999999"
+            android:text="@string/key_0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#99555555"
+            android:text="@string/key_dot" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#99999999"
+            android:text="@string/key_equals" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#99555555"
+            android:text="@string/key_sum" />
+
+    </GridLayout>
+
+</LinearLayout>
