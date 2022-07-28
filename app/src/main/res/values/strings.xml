@@ -16,4 +16,7 @@
     <string name="key_multiply">x</string>
     <string name="key_sum">+</string>
     <string name="key_minus">—</string>
+    <string name="_123">123</string>
+    <string name="_0">0</string>
+    <string name="_0123456789">0123456789</string>
 </resources>
