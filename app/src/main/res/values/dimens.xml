@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="buttonSize">70dp</dimen>
+    <dimen name="resultViewSize">410dp</dimen>
+    <dimen name="resultTextViewSize">60dp</dimen>
+
+
+</resources>
