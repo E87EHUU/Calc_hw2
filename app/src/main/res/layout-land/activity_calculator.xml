@@ -32,7 +32,7 @@
             android:layout_height="50dp"
             android:id="@+id/key_7"
             android:layout_columnWeight="1"
-            android:backgroundTint="#22999999"
+            android:backgroundTint="@color/DarkGray"
             android:text="@string/key_7" />
 
         <Button
@@ -40,7 +40,7 @@
             android:layout_height="50dp"
             android:id="@+id/key_8"
             android:layout_columnWeight="1"
-            android:backgroundTint="#22999999"
+            android:backgroundTint="@color/DarkGray"
             android:text="@string/key_8" />
 
         <Button
@@ -48,7 +48,7 @@
             android:layout_height="50dp"
             android:id="@+id/key_9"
             android:layout_columnWeight="1"
-            android:backgroundTint="#22999999"
+            android:backgroundTint="@color/DarkGray"
             android:text="@string/key_9" />
 
         <Button
@@ -56,7 +56,7 @@
             android:layout_height="50dp"
             android:id="@+id/key_div"
             android:layout_columnWeight="1"
-            android:backgroundTint="#99555555"
+            android:backgroundTint="@color/Gray"
             android:text="@string/key_divide" />
 
         <Button
